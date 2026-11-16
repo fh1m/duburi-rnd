@@ -2,6 +2,10 @@
 
 ROS 2 Humble workspace for the BRACU Duburi AUV 4.2. Controls the vehicle through a Pixhawk 2.4.8 running ArduSub via pymavlink. Perception via YOLO11 object detection with CUDA-accelerated inference, Kalman-filtered tracking, and PID-based visual servoing.
 
+![Flow simulation around a BRACU Duburi vehicle: streamlines coloured by velocity wrap the hull, thrusters and frame](docs/media/duburi-cfd.webp)
+
+*Flow around a BRACU Duburi vehicle, from the team's CFD work. Image: [bracuduburi.com](https://bracuduburi.com).*
+
 **~40 Python source files · 8 packages · ~6 500 lines**
 
 ---
